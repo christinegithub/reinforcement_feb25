@@ -17,12 +17,7 @@ options = [
         'rows': 4,
         'cols': 4,
         'char': '*'
-    }
-]
-
-print(draw_shape(options[0]))
-
-options1 = [
+    },
     {
         'rows': 3,
         'cols': 9,
@@ -30,4 +25,6 @@ options1 = [
     }
 ]
 
-print(draw_shape(options1[0]))
+print(draw_shape(options[0]))
+
+print(draw_shape(options[1]))
